@@ -1,0 +1,9 @@
+.card-body
+{
+    width:80% !important;
+    justify-items: center;
+}
+.card
+{
+    margin-top: 1em !important;
+}
