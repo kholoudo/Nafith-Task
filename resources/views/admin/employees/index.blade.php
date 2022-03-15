@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 @section('content')
 <div class="table-responsive">
@@ -7,15 +8,15 @@
 
       <!--Table head-->
       <thead>
-        @if( Auth::user()->role==='superadmin' )
-        <a  href="{{url('/admin/employees/create')}}">  <button type="button" style="margin:0 40%"class="btn btn-primary mb-3">Create new Company</button></a>
+        @if( Auth::user()->role==='admin' )
+        <a  href="{{url('/admin/employees/create')}}">  <button type="button" style="margin:0 40%"class="btn btn-primary mb-3">Create new Employee</button></a>
        @endif
         <tr>
           <th>#</th>
           <th class="th-lg">Employee Name</th>
           <th class="th-lg">Employee Email</th>
           <th class="th-lg">Employee phone</th>
-          @if( Auth::user()->role==='admin'||Auth::user()->role==='superadmin' )
+          @if( Auth::user()->role==='admin' )
           <th class="th-lg">Action</th>
           @endif
         </tr>

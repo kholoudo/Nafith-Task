@@ -21,17 +21,11 @@ class UserSeeder extends Seeder
                 'name' => 'ahmad',
                 'email' => 'admin@admin.com',
                 'password' => Hash::make('password'),
-                'role' => 'superadmin',
+                'role' => 'admin',
 
             ],
 
-            [
-                'name' => 'kholoud',
-                'email' => 'kholoud@g.com',
-                'password' => Hash::make('password1'),
-                'role' => 'companyadmin',
-
-            ],
+          
             [
                 'name' => 'haneen',
                 'email' => 'haneen@g.com',

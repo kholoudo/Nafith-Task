@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\EmployeeController;
 
 
@@ -30,15 +29,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/employees', [App\Http\Controllers\EmployeeController::class, 'index']);
 
 
-
-
-
 Route::get('/admin/employees/create', [EmployeeController::class, 'create'])->name('admin.employees.create');
 Route::post('/admin/employees/create', [EmployeeController::class, 'store'])->name('admin.employees.store');
 Route::get('editemployee/{id}',[EmployeeController::class,'edit']);
 Route::put('updateemployee/{id}',[EmployeeController::class,'update']);
 Route::get('deleteemployee/{id}', [EmployeeController::class, 'destroy']);
 
-// Route::resource('companies', 'CompanyController');
 
-//     Route::resource('employees', 'EmployeeController');

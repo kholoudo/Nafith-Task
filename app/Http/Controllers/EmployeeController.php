@@ -44,7 +44,7 @@ class EmployeeController extends Controller
             'employee_name' => $request->employee_name,
             'employee_email'=> $request->employee_email,
             'employee_phone'=>$request->employee_phone,
-            'company_id'=>$request->company_id
+           
         ]);
 
         $request->flash();

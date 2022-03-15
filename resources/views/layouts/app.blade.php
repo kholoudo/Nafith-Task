@@ -41,7 +41,7 @@
             <div class="container-fluid">
                 <div class="logoimage">
                     <img style=" padding-left: 1em;
-                    width: 40%;" class="logoimg" src={{ asset('img/upscale.png')}} alt="logo" />
+                    width: 40%;" class="logoimg" src={{ asset('img/logo.png')}} alt="logo" />
                   </div>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,7 @@
                         <a   href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
                         <a  href="{{ url('/employees') }}" class="nav-item nav-link">Employees</a>
 
-                     
+
                         @guest
                             @if (Route::has('login'))
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>

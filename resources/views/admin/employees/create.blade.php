@@ -19,9 +19,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group"> <label for="form_name"> Employee phone</label> <input id="form_name" type="text" name="employee_phone"    class="form-control" placeholder="Please enter Employee Phone *" required="required" data-error="Phone is required."> </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group"> <label for="form_name"> Company</label> <input id="form_name" type="text" name="company_id"    class="form-control" placeholder="Please enter Company Name *" required="required" data-error="Phone is required."> </div>
-                                    </div>
+                                   
 
                                 </div>
         </div>

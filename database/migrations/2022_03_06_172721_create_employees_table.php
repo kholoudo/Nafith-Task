@@ -18,9 +18,6 @@ return new class extends Migration
             $table->string('employee_name');
             $table->string('employee_email')->nullable();
             $table->string('employee_phone')->nullable();
-            $table->unsignedBigInteger('company_id')->nullable();
-            $table->foreign('company_id')->references('id')->on('companies')->onDelete('cascade')->onUpdate('cascade');
-
             $table->timestamps();
         });
     }

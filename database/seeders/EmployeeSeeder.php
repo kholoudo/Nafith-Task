@@ -21,7 +21,7 @@ class EmployeeSeeder extends Seeder
                 'employee_name' => 'rami',
                 'employee_email' => 'rami@g.com',
                 'employee_phone' =>'07777777777',
-                'company_id'=>1
+
 
             ],
 
@@ -29,7 +29,7 @@ class EmployeeSeeder extends Seeder
                 'employee_name' => 'naser',
                 'employee_email' => 'naser@g.com',
                 'employee_phone' =>'07777777777',
-                'company_id'=>2
+
 
 
             ],
@@ -37,7 +37,7 @@ class EmployeeSeeder extends Seeder
                 'employee_name' => 'reem',
                 'employee_email' => 'reem@g.com',
                 'employee_phone' =>'07777777777',
-                'company_id'=>3
+                
 
 
             ]
