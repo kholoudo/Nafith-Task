@@ -15,10 +15,10 @@
                                         <div class="form-group"> <label for="form_name"> Employee Name</label> <input id="form_name" type="text" name="employee_name"   value="{{$employee->employee_name}}" class="form-control" placeholder="Please enter your Name *" required="required" data-error="Firstname is required."> </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group"> <label for="form_name"> Employee Email</label> <input id="form_name" type="text" name="employee_email"   value="{{$employee->employee_email}}" class="form-control" placeholder="Please enter your Name *" required="required" data-error="Firstname is required."> </div>
+                                        <div class="form-group"> <label for="form_name"> Employee Email</label> <input id="form_name" type="text" name="employee_email"   value="{{$employee->employee_email}}" class="form-control" placeholder="Please enter your Email *" required="required" data-error="Firstname is required."> </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group"> <label for="form_name"> Employee phone</label> <input id="form_name" type="text" name="employee_phone"   value="{{$employee->employee_phone}}" class="form-control" placeholder="Please enter your Name *" required="required" data-error="Firstname is required."> </div>
+                                        <div class="form-group"> <label for="form_name"> Employee phone</label> <input id="form_name" type="text" name="employee_phone"   value="{{$employee->employee_phone}}" class="form-control" placeholder="Please enter your Phone *" required="required" data-error="Firstname is required."> </div>
                                     </div>
                                 </div>
         </div>
